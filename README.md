@@ -1,6 +1,4 @@
-<img width="1600" height="640" alt="35131" src="https://github.com/user-attachments/assets/6487b8f0-7ee9-41ce-8312-f366fbcdf58d" />
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/6487b8f0-7ee9-41ce-8312-f366fbcdf58d" alt="Kawsar Akando" width="100%" />
+<img src="https://github.com/user-attachments/assets/6487b8f0-7ee9-41ce-8312-f366fbcdf58d" alt="Kawsar Akando" width="100%" />
 </p>
 
 <h1 align="center">Hi 👋, I'm Kawsar Akando</h1>
