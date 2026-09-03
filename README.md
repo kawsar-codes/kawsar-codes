@@ -63,8 +63,36 @@
 </p>
 
 ---
+<h4 align="center">Tools & Technologies:</h4>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,docker,notion,linux,androidstudio&perline=4" />
+</p>
+
+---
+
+<h2 align="center">🏗️ How I Think About Backend Systems</h2>
+
+```mermaid
+flowchart LR
+    Client([Client]) --> Gateway[API Layer]
+
+    Gateway --> Auth[Auth & Validation]
+    Auth --> Controller[Controllers]
+    Controller --> Service[Service Layer]
+    Service --> Repo[Data Access]
+
+    Repo --> DB[(PostgreSQL)]
+    Service --> Cache[(Redis)]
+
+    style Client fill:#2563EB,stroke:#1e40af,color:#fff
+    style DB fill:#336791,stroke:#254a68,color:#fff
+    style Cache fill:#DC382D,stroke:#a42a22,color:#fff
+```
+
+---
 
 <h2 align="center">📊 GitHub Statistics & Analysis</h2>
+
 
 <h4 align="center">GitHub Contributions:</h4>
 <p align="center">
