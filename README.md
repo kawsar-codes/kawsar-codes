@@ -67,8 +67,6 @@
 
 <h2 align="center">🏗️ How I Think About Backend Systems</h2>
 
-<h2 align="center">🏗️ How I Think About Backend Systems</h2>
-
 ```mermaid
 flowchart TB
     Client([Client Apps])
