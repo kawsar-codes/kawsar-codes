@@ -68,7 +68,7 @@
 
 ``
 <p align="center">
-  <img src="./backend-architecture-v2.svg" width="100%" alt="Backend architecture">
+  <img src="./backend-architecture-django.svg" width="100%" alt="Backend architecture">
 </p>
 
 ---
