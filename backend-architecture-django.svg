@@ -1,0 +1,324 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 1650" width="1240" height="1650" role="img" aria-label="Production backend architecture: edge, application, async, data and delivery layers" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo1ZDUyMmFhYy03ZjZkLTQxMzAtYTE4ZS0xMGE2MDZlNmUwMzcAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaNqbAmsUpOal8D9HBBctnPgAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo4NWRmN2IyZi04ZGYwLTQ5MDEtOWJkYy05ZDNmNDBlYWExMTZscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoREHOLpmZvw2wk2+3nuUOVAAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggCet7FgiK9XFzbUhb1pXsY0WvG6HsH5eiHxy/ZzUXrAikZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaG14KUozQ3den5aksiW5Qw8AAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIL6Q4DlTWYly5hbF/iu1O5mjLLT2HShQGS+LjpPt7jRcZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GQEGZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjVkNTIyYWFjLTdmNmQtNDEzMC1hMThlLTEwYTYwNmU2ZTAzNy9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjFkZmEyMmM5LTYyY2UtNGJiNC05M2QyLWZhNjE2NjA5MGZkNnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCAJ63sWCIr1cXNtSFvWlexjRa8boewfl6IfHL9nNResCKJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggLaZCa/QBukH6nS59W+aL5FE3g1k5x19/9DaPWIE9qKWiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggIxz0G0M9jsOGyPBZFw6kJUZS3Wz4BEFLok8W49nBDW90Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQGlCcmlO0Lik61VSDKzrqRAurqIP/KtqeeqrzhgOZLGTtkUsf15N3ebRe/vpmjtyZkb6IiufE6p/6jVeebMg7Ag=</c2pa:manifest></metadata>
+  <defs>
+    <style>
+      .bg    { fill: #05070a; }
+      .panel { fill: #090c11; stroke: #1a2230; stroke-width: 1.5; }
+      .card  { fill: #0e131b; stroke: #26313f; stroke-width: 1.5; }
+      .h1    { fill: #f2f6fb; font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 30px; font-weight: 700; }
+      .sub   { fill: #66707e; font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 12.5px; letter-spacing: 1.4px; }
+      .lname { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 12px; font-weight: 600; letter-spacing: 1.8px; }
+      .t     { fill: #e9eff7; font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 14.5px; font-weight: 600; }
+      .ts    { fill: #e9eff7; font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 13px; font-weight: 600; }
+      .m     { fill: #78828f; font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 10.5px; }
+      .num   { fill: #8a94a2; font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 10px; font-weight: 700; }
+      .e     { fill: none; stroke: #38465b; stroke-width: 1.6; }
+      .ed    { fill: none; stroke: #333f52; stroke-width: 1.4; stroke-dasharray: 3 5; }
+      .tag   { fill: #9a7b2a; font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 10px; }
+      .foot  { fill: #4b5563; font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 11px; }
+    </style>
+
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+      <path d="M0,1 L9,5 L0,9 z" fill="#4c5c74"/>
+    </marker>
+
+    <filter id="g" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="4.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <linearGradient id="cl" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3b82f6"/><stop offset="100%" stop-color="#1e40af"/>
+    </linearGradient>
+
+    <path id="spine" d="M620,436 L620,868"/>
+    <path id="obx"   d="M470,764 C380,782 198,862 159,966"/>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1240" height="1650"/>
+
+  <text class="h1" x="620" y="54" text-anchor="middle">How I Think About Backend Systems</text>
+  <text class="sub" x="620" y="80" text-anchor="middle">one request, from the edge to the source of truth</text>
+
+  <!-- ============ CLIENTS ============ -->
+  <rect class="panel" x="290" y="100" width="660" height="96" rx="14"/>
+  <text class="m" x="620" y="119" text-anchor="middle">one typed SDK, three surfaces</text>
+  <rect x="316" y="130" width="190" height="46" rx="23" fill="url(#cl)"/>
+  <text class="ts" x="411" y="159" text-anchor="middle" fill="#ffffff">React Native app</text>
+  <rect class="card" x="526" y="130" width="190" height="46" rx="23"/>
+  <text class="ts" x="621" y="159" text-anchor="middle">React web app</text>
+  <rect class="card" x="736" y="130" width="190" height="46" rx="23"/>
+  <text class="ts" x="831" y="159" text-anchor="middle">Third-party clients</text>
+
+  <path class="ed" d="M1085,388 C1085,296 1002,232 956,178" marker-end="url(#a)"/>
+  <rect x="982" y="248" width="196" height="17" rx="4" fill="#05070a"/>
+  <text class="tag" x="1080" y="261" text-anchor="middle">TS client generated from the spec</text>
+
+  <path class="e" d="M620,196 L620,220" marker-end="url(#a)"/>
+
+  <!-- ============ EDGE ============ -->
+  <rect class="panel" x="290" y="224" width="660" height="140" rx="14"/>
+  <circle cx="312" cy="242" r="3.5" fill="#ffc857"/>
+  <text class="lname" x="324" y="246" fill="#ffc857">EDGE</text>
+
+  <rect class="card" x="312" y="262" width="190" height="72" rx="10"/>
+  <text class="t" x="407" y="292" text-anchor="middle">CDN and WAF</text>
+  <text class="m" x="407" y="311" text-anchor="middle">static assets, bot filtering</text>
+  <path class="e" d="M504,298 L518,298" marker-end="url(#a)"/>
+
+  <rect class="card" x="522" y="262" width="190" height="72" rx="10"/>
+  <text class="t" x="617" y="292" text-anchor="middle">Load Balancer</text>
+  <text class="m" x="617" y="311" text-anchor="middle">Nginx: TLS and static files</text>
+  <path class="e" d="M714,298 L728,298" marker-end="url(#a)"/>
+
+  <rect class="card" x="732" y="262" width="190" height="72" rx="10"/>
+  <text class="t" x="827" y="292" text-anchor="middle">API Gateway</text>
+  <text class="m" x="827" y="311" text-anchor="middle">routing, rate limits, quotas</text>
+
+  <path class="e" d="M620,364 L620,388" marker-end="url(#a)"/>
+
+  <!-- ============ PLATFORM RAIL (left) ============ -->
+  <rect class="panel" x="40" y="392" width="230" height="308" rx="14"/>
+  <circle cx="62" cy="410" r="3.5" fill="#a78bfa"/>
+  <text class="lname" x="74" y="414" fill="#a78bfa">PLATFORM</text>
+
+  <rect class="card" x="60" y="432" width="190" height="52" rx="9"/>
+  <text class="ts" x="155" y="453" text-anchor="middle">Config and secrets</text>
+  <text class="m" x="155" y="470" text-anchor="middle">settings split, django-environ</text>
+
+  <rect class="card" x="60" y="496" width="190" height="52" rx="9"/>
+  <text class="ts" x="155" y="517" text-anchor="middle">Feature flags</text>
+  <text class="m" x="155" y="534" text-anchor="middle">django-waffle switches</text>
+
+  <rect class="card" x="60" y="560" width="190" height="52" rx="9"/>
+  <text class="ts" x="155" y="581" text-anchor="middle">Resilience</text>
+  <text class="m" x="155" y="598" text-anchor="middle">timeouts, tenacity retries</text>
+
+  <rect class="card" x="60" y="624" width="190" height="52" rx="9"/>
+  <text class="ts" x="155" y="645" text-anchor="middle">Health probes</text>
+  <text class="m" x="155" y="662" text-anchor="middle">django-health-check probes</text>
+
+  <path class="ed" d="M270,546 L286,546" marker-end="url(#a)"/>
+
+  <!-- ============ API CONTRACT RAIL (right) ============ -->
+  <rect class="panel" x="970" y="392" width="230" height="308" rx="14"/>
+  <circle cx="992" cy="410" r="3.5" fill="#38bdf8"/>
+  <text class="lname" x="1004" y="414" fill="#38bdf8">API CONTRACT</text>
+
+  <rect class="card" x="990" y="432" width="190" height="52" rx="9"/>
+  <text class="ts" x="1085" y="453" text-anchor="middle">OpenAPI spec</text>
+  <text class="m" x="1085" y="470" text-anchor="middle">drf-spectacular, generated</text>
+
+  <rect class="card" x="990" y="496" width="190" height="52" rx="9"/>
+  <text class="ts" x="1085" y="517" text-anchor="middle">Versioning</text>
+  <text class="m" x="1085" y="534" text-anchor="middle">/v1, additive changes only</text>
+
+  <rect class="card" x="990" y="560" width="190" height="52" rx="9"/>
+  <text class="ts" x="1085" y="581" text-anchor="middle">Cursor pagination</text>
+  <text class="m" x="1085" y="598" text-anchor="middle">DRF CursorPagination</text>
+
+  <rect class="card" x="990" y="624" width="190" height="52" rx="9"/>
+  <text class="ts" x="1085" y="645" text-anchor="middle">Error envelope</text>
+  <text class="m" x="1085" y="662" text-anchor="middle">custom exception_handler</text>
+
+  <path class="ed" d="M968,546 L954,546" marker-end="url(#a)"/>
+
+  <!-- ============ APPLICATION ============ -->
+  <rect class="panel" x="290" y="392" width="660" height="500" rx="14"/>
+  <circle cx="312" cy="410" r="3.5" fill="#3fb950"/>
+  <text class="lname" x="324" y="414" fill="#3fb950">APPLICATION</text>
+  <text class="m" x="932" y="414" text-anchor="end">Gunicorn workers, stateless</text>
+
+  <rect class="card" x="470" y="436" width="300" height="56" rx="10"/>
+  <text class="t" x="620" y="462" text-anchor="middle">Middleware stack</text>
+  <text class="m" x="620" y="480" text-anchor="middle">request id, correlation, tenant</text>
+  <circle cx="470" cy="464" r="11" fill="#0e131b" stroke="#3a4759"/>
+  <text class="num" x="470" y="468" text-anchor="middle">1</text>
+  <path class="e" d="M620,492 L620,506" marker-end="url(#a)"/>
+
+  <rect class="card" x="470" y="510" width="300" height="60" rx="10"/>
+  <text class="t" x="620" y="536" text-anchor="middle">Authentication classes</text>
+  <text class="m" x="620" y="554" text-anchor="middle">SimpleJWT, permission and object-level checks</text>
+  <circle cx="470" cy="540" r="11" fill="#0e131b" stroke="#3a4759"/>
+  <text class="num" x="470" y="544" text-anchor="middle">2</text>
+  <path class="e" d="M620,570 L620,584" marker-end="url(#a)"/>
+
+  <rect class="card" x="470" y="588" width="300" height="60" rx="10"/>
+  <text class="t" x="620" y="614" text-anchor="middle">Serializers and idempotency</text>
+  <text class="m" x="620" y="632" text-anchor="middle">DRF serializer validates, idempotency-key header</text>
+  <circle cx="470" cy="618" r="11" fill="#0e131b" stroke="#3a4759"/>
+  <text class="num" x="470" y="622" text-anchor="middle">3</text>
+  <path class="e" d="M620,648 L620,662" marker-end="url(#a)"/>
+
+  <rect class="card" x="470" y="666" width="300" height="50" rx="10"/>
+  <text class="t" x="620" y="696" text-anchor="middle">ViewSets and routers</text>
+  <circle cx="470" cy="691" r="11" fill="#0e131b" stroke="#3a4759"/>
+  <text class="num" x="470" y="695" text-anchor="middle">4</text>
+  <path class="e" d="M620,716 L620,730" marker-end="url(#a)"/>
+
+  <rect class="card" x="470" y="734" width="300" height="60" rx="10" stroke="#3d5a3f"/>
+  <text class="t" x="620" y="760" text-anchor="middle">Service layer</text>
+  <text class="m" x="620" y="778" text-anchor="middle">services.py inside transaction.atomic</text>
+  <circle cx="470" cy="764" r="11" fill="#0e131b" stroke="#3d5a3f"/>
+  <text class="num" x="470" y="768" text-anchor="middle" fill="#3fb950">5</text>
+  <path class="e" d="M620,794 L620,808" marker-end="url(#a)"/>
+
+  <rect class="card" x="470" y="812" width="300" height="56" rx="10"/>
+  <text class="t" x="620" y="838" text-anchor="middle">Managers and QuerySets</text>
+  <text class="m" x="620" y="856" text-anchor="middle">select_related, no N+1 above this line</text>
+  <circle cx="470" cy="840" r="11" fill="#0e131b" stroke="#3a4759"/>
+  <text class="num" x="470" y="844" text-anchor="middle">6</text>
+
+  <!-- service -> outbox -->
+  <path class="ed" d="M470,764 C380,782 198,862 159,962" marker-end="url(#a)"/>
+  <rect x="256" y="826" width="122" height="18" rx="4" fill="#05070a"/>
+  <text class="tag" x="317" y="839" text-anchor="middle">outbox in the same tx</text>
+
+  <!-- ============ ASYNC ============ -->
+  <rect class="panel" x="40" y="930" width="470" height="216" rx="14"/>
+  <circle cx="62" cy="948" r="3.5" fill="#a78bfa"/>
+  <text class="lname" x="74" y="952" fill="#a78bfa">ASYNC AND EVENTS</text>
+
+  <rect class="card" x="64" y="970" width="190" height="64" rx="9"/>
+  <text class="ts" x="159" y="996" text-anchor="middle">Outbox table</text>
+  <text class="m" x="159" y="1014" text-anchor="middle">model row in the same tx</text>
+  <path class="e" d="M256,1002 L272,1002" marker-end="url(#a)"/>
+
+  <rect class="card" x="276" y="970" width="190" height="64" rx="9"/>
+  <text class="ts" x="371" y="996" text-anchor="middle">Celery beat relay</text>
+  <text class="m" x="371" y="1014" text-anchor="middle">polls, publishes, marks sent</text>
+
+  <path class="e" d="M371,1034 C371,1046 159,1042 159,1052" marker-end="url(#a)"/>
+
+  <rect class="card" x="64" y="1056" width="190" height="64" rx="9"/>
+  <text class="ts" x="159" y="1082" text-anchor="middle">Message broker</text>
+  <text class="m" x="159" y="1100" text-anchor="middle">Redis or RabbitMQ</text>
+  <path class="e" d="M256,1088 L272,1088" marker-end="url(#a)"/>
+
+  <rect class="card" x="276" y="1056" width="190" height="64" rx="9"/>
+  <text class="ts" x="371" y="1082" text-anchor="middle">Celery workers and beat</text>
+  <text class="m" x="371" y="1100" text-anchor="middle">autoretry_for, backoff, then DLQ</text>
+
+  <!-- ============ OBSERVABILITY ============ -->
+  <rect class="panel" x="730" y="930" width="470" height="216" rx="14"/>
+  <circle cx="752" cy="948" r="3.5" fill="#fb923c"/>
+  <text class="lname" x="764" y="952" fill="#fb923c">OBSERVABILITY</text>
+
+  <rect class="card" x="754" y="970" width="422" height="56" rx="9"/>
+  <text class="ts" x="965" y="994" text-anchor="middle">OpenTelemetry</text>
+  <text class="m" x="965" y="1012" text-anchor="middle">traces, metrics and logs from one instrumented path</text>
+
+  <rect class="card" x="754" y="1046" width="134" height="72" rx="9"/>
+  <text class="ts" x="821" y="1077" text-anchor="middle">Metrics</text>
+  <text class="m" x="821" y="1095" text-anchor="middle">django-prometheus,</text>
+  <text class="m" x="821" y="1109" text-anchor="middle">p95 and error rate</text>
+
+  <rect class="card" x="898" y="1046" width="134" height="72" rx="9"/>
+  <text class="ts" x="965" y="1077" text-anchor="middle">Logs</text>
+  <text class="m" x="965" y="1095" text-anchor="middle">structlog JSON,</text>
+  <text class="m" x="965" y="1109" text-anchor="middle">trace id attached</text>
+
+  <rect class="card" x="1042" y="1046" width="134" height="72" rx="9"/>
+  <text class="ts" x="1109" y="1077" text-anchor="middle">Alerts</text>
+  <text class="m" x="1109" y="1095" text-anchor="middle">symptom based,</text>
+  <text class="m" x="1109" y="1109" text-anchor="middle">routed to on-call</text>
+
+  <path class="ed" d="M950,884 C990,900 972,908 968,926" marker-end="url(#a)"/>
+  <path class="ed" d="M512,1078 L726,1078" marker-end="url(#a)"/>
+
+  <!-- ============ DATA ============ -->
+  <rect class="panel" x="40" y="1190" width="1160" height="262" rx="14"/>
+  <circle cx="62" cy="1210" r="3.5" fill="#58a6ff"/>
+  <text class="lname" x="74" y="1214" fill="#58a6ff">DATA</text>
+
+  <path class="e" d="M620,868 L620,1240"/>
+  <circle cx="620" cy="1240" r="4" fill="#4c5c74"/>
+  <path class="e" d="M150,1240 L1090,1240"/>
+
+  <path class="e" d="M150,1240 L150,1258" marker-end="url(#a)"/>
+  <path class="e" d="M338,1240 L338,1258" marker-end="url(#a)"/>
+  <path class="e" d="M526,1240 L526,1258" marker-end="url(#a)"/>
+  <path class="e" d="M714,1240 L714,1258" marker-end="url(#a)"/>
+  <path class="e" d="M902,1240 L902,1258" marker-end="url(#a)"/>
+  <path class="e" d="M1090,1240 L1090,1258" marker-end="url(#a)"/>
+
+  <rect x="64" y="1262" width="172" height="86" rx="10" fill="#150e10" stroke="#5a2c2c" stroke-width="1.5"/>
+  <text class="t" x="150" y="1292" text-anchor="middle" fill="#ff8a7a">Redis</text>
+  <text class="m" x="150" y="1311" text-anchor="middle">cache framework, sessions,</text>
+  <text class="m" x="150" y="1327" text-anchor="middle">locks, rate counters</text>
+
+  <rect class="card" x="252" y="1262" width="172" height="86" rx="10"/>
+  <text class="t" x="338" y="1292" text-anchor="middle">PgBouncer</text>
+  <text class="m" x="338" y="1311" text-anchor="middle">pooled connections,</text>
+  <text class="m" x="338" y="1327" text-anchor="middle">Postgres stays calm</text>
+
+  <rect x="440" y="1262" width="172" height="86" rx="10" fill="#0b1220" stroke="#2a4a72" stroke-width="1.5"/>
+  <text class="t" x="526" y="1292" text-anchor="middle" fill="#7ab7ff">PostgreSQL</text>
+  <text class="m" x="526" y="1311" text-anchor="middle">writes, constraints,</text>
+  <text class="m" x="526" y="1327" text-anchor="middle">the source of truth</text>
+
+  <rect x="628" y="1262" width="172" height="86" rx="10" fill="#0b1220" stroke="#24405f" stroke-width="1.5"/>
+  <text class="t" x="714" y="1292" text-anchor="middle" fill="#7ab7ff">Read replicas</text>
+  <text class="m" x="714" y="1311" text-anchor="middle">DATABASE_ROUTERS split,</text>
+  <text class="m" x="714" y="1327" text-anchor="middle">lag is accounted for</text>
+
+  <rect class="card" x="816" y="1262" width="172" height="86" rx="10"/>
+  <text class="t" x="902" y="1292" text-anchor="middle">Postgres full text</text>
+  <text class="m" x="902" y="1311" text-anchor="middle">SearchVector and GIN index,</text>
+  <text class="m" x="902" y="1327" text-anchor="middle">no extra service yet</text>
+
+  <rect class="card" x="1004" y="1262" width="172" height="86" rx="10"/>
+  <text class="t" x="1090" y="1292" text-anchor="middle">Object storage</text>
+  <text class="m" x="1090" y="1311" text-anchor="middle">django-storages on S3,</text>
+  <text class="m" x="1090" y="1327" text-anchor="middle">signed upload URLs</text>
+
+  <path class="e" d="M424,1305 L436,1305" marker-end="url(#a)"/>
+  <path class="e" d="M612,1305 L624,1305" marker-end="url(#a)"/>
+  <rect x="580" y="1352" width="84" height="16" rx="4" fill="#090c11"/>
+  <text class="tag" x="622" y="1364" text-anchor="middle">replication</text>
+
+  <rect class="card" x="440" y="1372" width="172" height="54" rx="9"/>
+  <text class="ts" x="526" y="1393" text-anchor="middle">Migrations</text>
+  <text class="m" x="526" y="1410" text-anchor="middle">makemigrations, reversible</text>
+  <path class="e" d="M526,1372 L526,1352" marker-end="url(#a)"/>
+
+  <rect class="card" x="816" y="1372" width="172" height="54" rx="9"/>
+  <text class="ts" x="902" y="1393" text-anchor="middle">Backups and PITR</text>
+  <text class="m" x="902" y="1410" text-anchor="middle">restore is tested</text>
+  <path class="e" d="M760,1348 C760,1380 830,1370 860,1370" marker-end="url(#a)"/>
+
+  <!-- ============ DELIVERY ============ -->
+  <rect class="panel" x="40" y="1472" width="1160" height="112" rx="14"/>
+  <circle cx="62" cy="1492" r="3.5" fill="#3fb950"/>
+  <text class="lname" x="74" y="1496" fill="#3fb950">DELIVERY</text>
+
+  <rect class="card" x="330" y="1512" width="150" height="50" rx="9"/>
+  <text class="ts" x="405" y="1542" text-anchor="middle">Push</text>
+  <path class="e" d="M482,1537 L496,1537" marker-end="url(#a)"/>
+
+  <rect class="card" x="500" y="1512" width="150" height="50" rx="9"/>
+  <text class="ts" x="575" y="1535" text-anchor="middle">CI</text>
+  <text class="m" x="575" y="1551" text-anchor="middle">ruff, mypy, pytest</text>
+  <path class="e" d="M652,1537 L666,1537" marker-end="url(#a)"/>
+
+  <rect class="card" x="670" y="1512" width="150" height="50" rx="9"/>
+  <text class="ts" x="745" y="1535" text-anchor="middle">Build image</text>
+  <text class="m" x="745" y="1551" text-anchor="middle">one artifact, all envs</text>
+  <path class="e" d="M822,1537 L836,1537" marker-end="url(#a)"/>
+
+  <rect class="card" x="840" y="1512" width="150" height="50" rx="9"/>
+  <text class="ts" x="915" y="1535" text-anchor="middle">Deploy</text>
+  <text class="m" x="915" y="1551" text-anchor="middle">migrate, then rolling</text>
+
+  <!-- pulses -->
+  <circle r="3.6" fill="#58a6ff" filter="url(#g)">
+    <animateMotion dur="5s" repeatCount="indefinite"><mpath href="#spine"/></animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3.2" fill="#a78bfa" filter="url(#g)">
+    <animateMotion dur="3.4s" begin="1.6s" repeatCount="indefinite"><mpath href="#obx"/></animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0" dur="3.4s" begin="1.6s" repeatCount="indefinite"/>
+  </circle>
+
+  <text class="foot" x="620" y="1614" text-anchor="middle">solid line: the synchronous request path   ·   dashed line: events and telemetry</text>
+  <text class="foot" x="620" y="1633" text-anchor="middle">Python · Django · DRF · Celery · PostgreSQL · Redis · Docker</text>
+</svg>
