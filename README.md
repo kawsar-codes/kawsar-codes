@@ -63,11 +63,10 @@
 </p>
 
 
----
 
 <h2 align="center">🏗️ How I Think About Backend Systems</h2>
 
-```mermaid
+``
 <p align="center">
   <img src="./backend-architecture-v2.svg" width="100%" alt="Backend architecture">
 </p>
