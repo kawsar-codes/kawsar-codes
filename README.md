@@ -68,53 +68,10 @@
 <h2 align="center">🏗️ How I Think About Backend Systems</h2>
 
 ```mermaid
-flowchart TB
-    Client([Client Apps])
+<p align="center">
+  <img src="./backend-architecture-v2.svg" width="100%" alt="Backend architecture">
+</p>
 
-    subgraph Edge["🌐 Edge Layer"]
-        LB[Load Balancer]
-        RL[Rate Limiter]
-    end
-
-    subgraph App["⚙️ Application Layer"]
-        direction TB
-        Auth[Auth Middleware<br/>JWT / Session]
-        Valid[Validation<br/>Schema / DTO]
-        Ctrl[Controllers]
-        Svc[Service Layer<br/>Business Logic]
-        Repo[Repository<br/>Data Access]
-    end
-
-    subgraph Async["📨 Async Layer"]
-        Queue[Job Queue]
-        Worker[Background Workers]
-    end
-
-    subgraph Data["💾 Persistence"]
-        DB[(PostgreSQL<br/>Source of Truth)]
-        Cache[(Redis<br/>Cache + Sessions)]
-        Store[/Object Storage/]
-    end
-
-    Obs[[📊 Logging & Monitoring]]
-
-    Client --> LB --> RL --> Auth
-    Auth --> Valid --> Ctrl --> Svc
-    Svc --> Repo --> DB
-    Svc --> Cache
-    Svc -.enqueue.-> Queue
-    Queue --> Worker
-    Worker --> DB
-    Worker --> Store
-
-    App -.metrics.-> Obs
-    Async -.metrics.-> Obs
-
-    style Client fill:#2563EB,stroke:#1e40af,color:#fff
-    style DB fill:#336791,stroke:#254a68,color:#fff
-    style Cache fill:#DC382D,stroke:#a42a22,color:#fff
-    style Obs fill:#1e293b,stroke:#475569,color:#fff
-```
 ---
 
 <h2 align="center">📊 GitHub Statistics & Analysis</h2>
